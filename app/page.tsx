@@ -10,11 +10,7 @@ export default function Home() {
                 <div className="p-6 text-center">
                     <div className="relative mx-auto mb-4 size-[150px] overflow-hidden rounded-full bg-gray-100">
                         <Image
-                            src={
-                                process.env.NODE_ENV == "development"
-                                    ? "/images/lm-profile.jpg"
-                                    : "/lm/images/lm-profile.jpg"
-                            }
+                            src="/images/lm-profile.jpg"
                             alt="Lisa-Marie Schwingshandl"
                             fill
                             sizes="150px"
