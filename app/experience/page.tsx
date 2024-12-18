@@ -3,7 +3,7 @@ import Button from "../components/button";
 
 export default function Experience() {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center bg-blue-600 p-4">
+        <div className="flex min-h-screen flex-col items-center justify-center bg-indigo-400 p-4">
             <main className="w-full max-w-2xl overflow-hidden rounded-lg bg-white shadow-xl">
                 <div className="p-6">
                     <Button href="/">
@@ -16,19 +16,29 @@ export default function Experience() {
 
                     <div className="space-y-6">
                         <ExperienceItem
-                            title="Partner, Business Development"
-                            company="CSM Family Ventures"
-                            date="November 2024 – Present"
+                            title="Associate, Learning Management"
+                            company="SAP"
+                            date="August 2022 - Present"
                         />
                         <ExperienceItem
-                            title="Office of the President"
-                            company="Kerna Health"
-                            date="December 2022 – Present"
+                            title="Lecturer, Guest"
+                            company="The Ohio State University"
+                            date="July 2024 - Present"
                         />
                         <ExperienceItem
-                            title="Administrative Assistant"
-                            company="Besa Sharrah for Senate"
-                            date="February 2024 – November 2024"
+                            title="Intern, Learning & Development"
+                            company="Vertiv"
+                            date="May 2022 - August 2022"
+                        />
+                        <ExperienceItem
+                            title="Intern, Learning Design"
+                            company="Fisher College of Business"
+                            date="August 2020 - May 2022"
+                        />
+                        <ExperienceItem
+                            title="Intern, Learning Design"
+                            company="Hyland Software"
+                            date="May 2021 - December 2021"
                         />
                     </div>
 
@@ -37,14 +47,19 @@ export default function Experience() {
                     </h2>
                     <div className="space-y-6">
                         <ExperienceItem
-                            title="MBA, Business Analytics"
-                            company="Fisher College of Business, The Ohio State University"
+                            title="MBA, Marketing"
+                            company="Kelley School of Business, Indiana University"
+                            date="May 2027 (Expected)"
+                        />
+                        <ExperienceItem
+                            title="MS, Learning Technologies"
+                            company="The Ohio State University"
                             date="August 2024"
                         />
                         <ExperienceItem
-                            title="BA, Criminal Justice & Criminology"
+                            title="BS, Technical Education and Training"
                             company="The Ohio State University"
-                            date="May 2023"
+                            date="August 2022"
                         />
                     </div>
                 </div>
