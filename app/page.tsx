@@ -5,7 +5,7 @@ import Button from "./components/button";
 
 export default function Home() {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center bg-blue-600 p-4">
+        <div className="flex min-h-screen flex-col items-center justify-center bg-indigo-400 p-4">
             <main className="w-full max-w-md overflow-hidden rounded-lg bg-white shadow-xl">
                 <div className="p-6 text-center">
                     <div className="relative mx-auto mb-4 size-[150px] overflow-hidden rounded-full bg-gray-100">
@@ -62,8 +62,8 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-            <footer className="mt-8 text-center text-sm text-gray-500">
-                © {new Date().getFullYear()} Lisa-Marie Schwingshandl. All
+            <footer className="mt-8 text-center text-sm text-white">
+                © {new Date().getFullYear()} Henry Levenberg. All
                 rights reserved.
             </footer>
         </div>
