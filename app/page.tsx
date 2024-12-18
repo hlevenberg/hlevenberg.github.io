@@ -10,8 +10,8 @@ export default function Home() {
                 <div className="p-6 text-center">
                     <div className="relative mx-auto mb-4 size-[150px] overflow-hidden rounded-full bg-gray-100">
                         <Image
-                            src="/images/lm-profile.jpg"
-                            alt="Lisa-Marie Schwingshandl"
+                            src="/images/hl-profile.jpg"
+                            alt="Henry Levenberg"
                             fill
                             sizes="150px"
                             className="object-cover"
@@ -19,10 +19,10 @@ export default function Home() {
                         />
                     </div>
                     <h1 className="mb-2 text-2xl font-bold text-gray-800">
-                        Lisa-Marie Schwingshandl
+                        Henry Levenberg
                     </h1>
                     <p className="mb-6 text-gray-600">
-                        Business Development Partner at the CSM Family Office
+                        Product Learning @ SAP
                     </p>
 
                     <div className="space-y-4">
@@ -31,7 +31,7 @@ export default function Home() {
                             Experience
                         </Button>
                         <Button
-                            href="mailto:lisamarie@schwingshandl.org"
+                            href="mailto:henrylevenberg@gmail.com"
                             fullWidth
                         >
                             <Mail className="mr-2 size-4" /> Contact
@@ -44,7 +44,7 @@ export default function Home() {
 
                     <div className="mt-6 flex justify-center space-x-4">
                         <Link
-                            href="https://www.linkedin.com/in/schmolmueller-schwingshandl/"
+                            href="https://www.linkedin.com/in/henrylevenberg/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-gray-800"
@@ -52,7 +52,7 @@ export default function Home() {
                             <Linkedin className="size-6" />
                         </Link>
                         <Link
-                            href="https://www.instagram.com/lisamarieschwingshandl/"
+                            href="https://www.instagram.com/hwlevenberg/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-gray-800"
