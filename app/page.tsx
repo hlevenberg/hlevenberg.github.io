@@ -5,7 +5,7 @@ import Button from "./components/button";
 
 export default function Home() {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center bg-[#E6E6FA] p-4">
+        <div className="flex min-h-screen flex-col items-center justify-center bg-blue-600 p-4">
             <main className="w-full max-w-md overflow-hidden rounded-lg bg-white shadow-xl">
                 <div className="p-6 text-center">
                     <div className="relative mx-auto mb-4 size-[150px] overflow-hidden rounded-full bg-gray-100">
